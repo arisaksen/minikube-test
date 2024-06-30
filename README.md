@@ -28,8 +28,6 @@ docker build --no-cache -t api2-image api2/api2/.;kubectl delete -f api2-k8s.yam
 Mysql before api2
 
 ```bash
-kubectl apply -f mysql-secret.yaml
-kubectl apply -f mysql-storage.yaml
 kubectl apply -f mysql-k8s.yaml
 
 docker build -t api2-image api2/.;kubectl delete -f api2-k8s.yaml;kubectl apply -f api2-k8s.yaml
