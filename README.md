@@ -3,13 +3,11 @@
 ## Minikube
 
 ```bash
-minikube docker-env
-eval $(minikube -p minikube docker-env)
+minikube docker-env; eval $(minikube -p minikube docker-env)
 
 # to set back to normal localhost
 docker context ls
-unset DOCKER_HOST
-docker context use colima
+unset DOCKER_HOST; docker context use colima
 ```
 
 `docker images`
@@ -47,7 +45,7 @@ Then add url in browser or postman: http://127.0.0.1:56962/api/book
 ### Docker remove old images
 
 ```bash
-docker image prune -a -f
+docker image prune -af
 ```
 
 ### Mount folder from localhost into minikube
