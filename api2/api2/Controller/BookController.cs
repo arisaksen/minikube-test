@@ -12,7 +12,6 @@ namespace api2.Controller;
 public class BookController : ControllerBase
 {
     private readonly ILogger<BookController> _logger;
-
     private readonly AppDbContext _db;
 
     public BookController(ILogger<BookController> logger, AppDbContext db)
