@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api2Book", "api2Book\api2Book.csproj", "{B660F3A9-062C-453E-A542-C75BC3B54A19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D78AD1F-D395-4F6F-8222-88AF8FACE964}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api3Auth", "api3Auth\api3Auth.csproj", "{AEE04B26-E07B-42CE-9675-FBDBF529E23F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B660F3A9-062C-453E-A542-C75BC3B54A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B660F3A9-062C-453E-A542-C75BC3B54A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B660F3A9-062C-453E-A542-C75BC3B54A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B660F3A9-062C-453E-A542-C75BC3B54A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE04B26-E07B-42CE-9675-FBDBF529E23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE04B26-E07B-42CE-9675-FBDBF529E23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE04B26-E07B-42CE-9675-FBDBF529E23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE04B26-E07B-42CE-9675-FBDBF529E23F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
